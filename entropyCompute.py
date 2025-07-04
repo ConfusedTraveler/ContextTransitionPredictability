@@ -1,7 +1,7 @@
 import math
 import numpy as np
 import re
-import entropy_time_bin
+# import entropy_time_bin
 
 def rand_entropy(sequence):
     """
@@ -89,7 +89,8 @@ def real_entropy(lambdas, n):
         fields, with applications to English text. IEEE Transactions on Information
         Theory, 44(3), 1319-1327.
     """
-    return (1.0 * n / lambdas) * np.log(n)
+    # return (1.0 * n / lambdas) * np.log(n)
+    return (1.0 * n / lambdas) * np.log2(n)
 
 def compute_f(p,S,N):
     if p<=0 or p>=1 :

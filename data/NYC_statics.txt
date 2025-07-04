@@ -1,0 +1,4 @@
+Total users: 1083
+Total unique venues: 38333
+Total check-ins: 227428
+Average check-ins per user: 210.00
